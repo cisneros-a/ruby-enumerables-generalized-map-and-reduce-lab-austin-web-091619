@@ -17,4 +17,6 @@ def map(array)
     i += 1
   end
   p new
-end 
+end
+
+map(array)
