@@ -5,7 +5,7 @@ def map(array)
     new.push(yield(array[i]))
     i += 1
   end
-  p new
+  new
 end
 
 map([12, 32, -4, 27, -64]) do
