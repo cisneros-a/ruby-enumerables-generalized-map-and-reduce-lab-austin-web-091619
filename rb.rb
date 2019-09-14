@@ -14,11 +14,12 @@ def map_to_negativize(array)
   yield(1)
 end
 
-def map_to_negativize(array) {|n|
+map_to_negativize(array) {|n|
   new = []
   i = 0
   while i < array.length do
     new.push(array[i] * "#{n}")
     i += 1
+  end
   return new
 }
