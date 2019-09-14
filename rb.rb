@@ -16,10 +16,11 @@ def introduction(array)
   yield(array)
 end
 
-introduction(array) {|n|
+introduction(array)|n|
   i = 0
   new = []
   while i < array.length do
     new.push(array[i] * -1)
     i += 1
-  end puts "#{n}"}
+  end puts "#{n}"
+end
