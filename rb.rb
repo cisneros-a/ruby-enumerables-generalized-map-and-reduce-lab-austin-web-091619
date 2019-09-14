@@ -10,7 +10,7 @@ make_sandwich("Creamy Peanut Butter", "glittering sense of accomplishment") {
 array = [12, -3, 2, 54]
 
 def map_to_negativize(array)
-  yield(array[i] * -1)
+  yield(* -1)
   yield(1)
 end
 
