@@ -15,6 +15,6 @@ def map(array)
   while i < array.length
     new.push(yield(s[i]))
     i += 1
-  end 
+  end
   p new
 end 
