@@ -7,7 +7,6 @@ make_sandwich("Creamy Peanut Butter", "glittering sense of accomplishment") {
 	p "#{b} on tortilla"
 }
 
-array = [12, -3, 2, 54]
 
 def map(array)
   new = []
