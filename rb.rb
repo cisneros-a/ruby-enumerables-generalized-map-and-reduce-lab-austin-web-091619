@@ -22,5 +22,5 @@ introduction(array)|n|
   while i < array.length do
     new.push(array[i] * -1)
     i += 1
-  end puts "#{n}"
+ puts "#{n}"
 end
