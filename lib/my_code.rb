@@ -16,12 +16,4 @@ map([12, 32, -4, 27, -64]) { |n| n * 1 }
 
 map([12, 32, -4, 27, -64]){ |n| n * 2}
 
-def reduce(source_array, starting_point = 0)
-  i = 0
-  new = starting_point
-  while i < source_array.length do
-    new += source_array[i]
-    i+= 1
-  end
-  return new
-end
+
