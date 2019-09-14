@@ -9,14 +9,15 @@ make_sandwich("Creamy Peanut Butter", "glittering sense of accomplishment") {
 
 array = [12, -3, 2, 54]
 
-def map(array)
+def map(negative)
   new = []
   i = 0
-  while i < array.length
-    new.push(yield(array[i]))
+  while i < negative.length
+    new.push(yield(negative[i]))
     i += 1
   end
   p new
 end
 
-map(array){|n|}
+map([1,2,3]) do |innards| innards * -1
+end
