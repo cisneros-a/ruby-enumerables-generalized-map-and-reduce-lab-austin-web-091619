@@ -24,3 +24,5 @@ def reduce(array, starting_point)
   else
     sum = array[0]
     i = 1
+  end 
+end
