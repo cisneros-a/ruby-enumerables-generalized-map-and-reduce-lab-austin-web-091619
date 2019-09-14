@@ -10,13 +10,13 @@ make_sandwich("Creamy Peanut Butter", "glittering sense of accomplishment") {
 array = [12, -3, 2, 54]
 
 def map_to_negativize(array)
-  yield(array)
+  yield(-1)
   yield(array)
   yield(array)
   yield(array)
 end
 
-def map_to_negativize(array)
+def map_to_negativize(array) |n|
   new = []
   i = 0
   while i < array.length do
