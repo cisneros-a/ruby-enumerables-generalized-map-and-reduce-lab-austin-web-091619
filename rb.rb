@@ -36,7 +36,7 @@ def map_to_negativize(source_array)
   return p new
 end
 
-map_to_negativize
+map_to_negativize(source_array)
 
 def map_to_no_change(source_array)
   return source_array
