@@ -20,7 +20,7 @@ def map_to_negativize(array) |n|
   new = []
   i = 0
   while i < array.length do
-    new.push(array[i] * -1)
+    new.push(array[i] * "#{n}")
     i += 1
   end
   return new
