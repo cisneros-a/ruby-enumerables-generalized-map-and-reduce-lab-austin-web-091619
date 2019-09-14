@@ -8,3 +8,13 @@ make_sandwich("Creamy Peanut Butter", "glittering sense of accomplishment") {
 }
 
 array = [12, -3, 2, 54]
+
+def map(array)
+  new = []
+  i = 0
+  while i < array.length
+    new.push(yield(s[i]))
+    i += 1
+  end 
+  p new
+end 
