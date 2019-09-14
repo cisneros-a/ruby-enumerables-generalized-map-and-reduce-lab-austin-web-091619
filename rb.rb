@@ -25,5 +25,3 @@ map_to_negativize(array) {|n|
 }
 
 source_array = [31, 43, -4, 6]
-
-
