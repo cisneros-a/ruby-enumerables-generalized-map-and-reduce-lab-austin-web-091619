@@ -22,5 +22,5 @@ def reduce(array, starting_point)
     sum = starting_point
     i = 0
   else
-    sum = 0
+    sum = array[0]
     i = 1
