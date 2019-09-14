@@ -20,6 +20,5 @@ def map_to_negativize(array) {|n|
   while i < array.length do
     new.push(array[i] * "#{n}")
     i += 1
-  end
   return new
 }
