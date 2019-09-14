@@ -13,10 +13,10 @@ def map(array)
   new = []
   i = 0
   while i < array.length
-    new.push(yield(s[i]))
+    new.push(yield(array[i]))
     i += 1
   end
   p new
 end
 
-map(array)
+map(array){|n|}
