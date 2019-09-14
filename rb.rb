@@ -9,7 +9,7 @@ make_sandwich("Creamy Peanut Butter", "glittering sense of accomplishment") {
 
 array = [12, -3, 2, 54]
 
-def introduction(array)
+def map_to_negativize(array)
   yield(array)
   yield(array)
   yield(array)
