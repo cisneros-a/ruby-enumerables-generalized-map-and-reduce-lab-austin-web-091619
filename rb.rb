@@ -9,11 +9,14 @@ make_sandwich("Creamy Peanut Butter", "glittering sense of accomplishment") {
 
 array = [12, -3, 2, 54]
 
-def introduction(name)
-  yield(name)
-  yield("Amanda")
-  yield(name)
-  yield("John")
-end 
+def introduction(array)
+  yield(array)
+  yield(array)
+  yield(array)
+  yield(array)
+end
 
 introduction("Adrian") {|n| puts "My name is #{n}!"}
+
+
+def
