@@ -18,7 +18,7 @@ def map(array)
   p new
 end
 
-map([12,32,-4]) do
+map([12, 32, -4, 27, -64]) do
   |n| n * -1
 end
 
