@@ -11,9 +11,7 @@ array = [12, -3, 2, 54]
 
 def map_to_negativize(array)
   yield(-1)
-  yield(array)
-  yield(array)
-  yield(array)
+  yield(1)
 end
 
 def map_to_negativize(array) |n|
