@@ -24,5 +24,10 @@ def reduce(array, starting_point)
   else
     sum = array[0]
     i = 1
-  end 
+  end
+  while i < array.length do
+    sum = yeild(sum, array[i])
+    i +=1
+  end
+  sum
 end
