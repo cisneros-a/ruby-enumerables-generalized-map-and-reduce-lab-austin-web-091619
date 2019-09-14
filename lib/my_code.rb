@@ -1,4 +1,4 @@
-def map(array)
+def my_own_map(array)
   new = []
   i = 0
   while i < array.length
@@ -8,10 +8,10 @@ def map(array)
   new
 end
 
-map([12, 32, -4, 27, -64]) do
+my_own_map([12, 32, -4, 27, -64]) do
   |n| n * -1
 end
 
-map([12, 32, -4, 27, -64]) { |n| n * 1 }
+my_own_map([12, 32, -4, 27, -64]) { |n| n * 1 }
 
-map([12, 32, -4, 27, -64]){ |n| n * 2}
+my_own_map([12, 32, -4, 27, -64]){ |n| n * 2}
