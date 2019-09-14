@@ -14,7 +14,7 @@ def map_to_negativize(array)
   yield(1)
 end
 
-def map_to_negativize(array) |n|
+def map_to_negativize(array) {|n|
   new = []
   i = 0
   while i < array.length do
@@ -22,4 +22,4 @@ def map_to_negativize(array) |n|
     i += 1
   end
   return new
-  end
+}
