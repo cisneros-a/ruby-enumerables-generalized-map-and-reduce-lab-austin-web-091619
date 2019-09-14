@@ -21,3 +21,5 @@ end
 
 map([1,2,3]) do |innards| innards * -1
 end
+
+map([1,2,3]) do |n| |n| * 1
