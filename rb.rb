@@ -23,4 +23,4 @@ introduction(array){|n|
     new.push(array[i] * -1)
     i += 1
  puts "#{n}"
-}
+end
