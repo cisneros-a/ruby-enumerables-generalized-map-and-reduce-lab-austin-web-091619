@@ -16,11 +16,12 @@ def introduction(array)
   yield(array)
 end
 
-introduction(array) |n|
-  i = 0
+def map_to_negativize(array)
   new = []
+  i = 0
   while i < array.length do
     new.push(array[i] * -1)
     i += 1
- puts "#{n}"
-end
+  end 
+  return new
+  end
