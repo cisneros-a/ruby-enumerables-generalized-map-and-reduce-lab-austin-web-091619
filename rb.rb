@@ -18,7 +18,7 @@ map_to_negativize(array) {|n|
   new = []
   i = 0
   while i < array.length do
-    new.push("#{n}"[i] * -1)
+    new.push("#{n}")
     i += 1
   end
   return new
