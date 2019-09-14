@@ -9,11 +9,11 @@ make_sandwich("Creamy Peanut Butter", "glittering sense of accomplishment") {
 
 array = [12, -3, 2, 54]
 
-def map(negative)
+def map(array)
   new = []
   i = 0
   while i < negative.length
-    new.push(yield(negative[i]))
+    new.push(yield(array[i]))
     i += 1
   end
   p new
