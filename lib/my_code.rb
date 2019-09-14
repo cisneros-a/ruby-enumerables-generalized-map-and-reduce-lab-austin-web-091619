@@ -8,7 +8,7 @@ def own_map(array)
   p new
 end
 
-own_map([12, 32, -4, 27, -64]) do
+map([12, 32, -4, 27, -64]) do
   |n| n * -1
 end
 
