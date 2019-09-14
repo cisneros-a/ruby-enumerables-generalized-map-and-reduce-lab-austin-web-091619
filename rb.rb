@@ -16,7 +16,7 @@ def introduction(array)
   yield(array)
 end
 
-introduction(array){|n|
+introduction(array)|n|
   i = 0
   new = []
   while i < array.length do
