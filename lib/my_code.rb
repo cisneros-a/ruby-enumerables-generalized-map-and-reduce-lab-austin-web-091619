@@ -29,5 +29,5 @@ def reduce(array, starting_point)
     sum = yeild(sum, array[i])
     i +=1
   end
-  sum
+  return sum
 end
