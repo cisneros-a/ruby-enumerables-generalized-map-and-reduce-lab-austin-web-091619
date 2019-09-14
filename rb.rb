@@ -16,4 +16,4 @@ def introduction(array)
   yield(array)
 end
 
-introduction(array) {|n| puts "My name is #{n}!"}
+introduction(array) {|n| puts "#{n}" * -1}
