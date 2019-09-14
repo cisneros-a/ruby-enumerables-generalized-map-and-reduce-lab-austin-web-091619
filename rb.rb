@@ -16,4 +16,4 @@ def introduction(array)
   yield(array)
 end
 
-introduction("Adrian") {|n| puts "My name is #{n}!"}
+introduction(array) {|n| puts "My name is #{n}!"}
